@@ -1,0 +1,17 @@
+
+for i from 0 to n-1: //O(n^2)
+	diff = sum - a[i];
+	for j from i+1 to n-1:
+		if a[j] == diff:
+			match
+
+//O(nlogn)
+for i from 0 to n-1: // O(nlogn)
+	insertAVL(a[i]) // O(logn)
+for i from 0 to n-1: //O(nlogn)
+	diff = sum-a[i]
+	if avlsearch(diff) == true //O(logn)
+		match
+
+
+
